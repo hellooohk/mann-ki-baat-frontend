@@ -23,18 +23,19 @@ body{
 a{
   text-decoration: none;
   color: #FFF;
+  
 }
 textarea{
-  height: 15rem;
   font-family: "Poppins",sans-serif;
   font-size: 18px;
-  background-color: #000;
+  background-color: #EC9B3B;
   color: #FFF;
   border-radius: 1rem;
   padding-left: 0.3rem;
   border: 3px solid #FFF;
   caret-color: #FFF;
+  letter-spacing: 1.5px;
 }
 textarea:focus-visible{
-  
+  outline: none;
 }

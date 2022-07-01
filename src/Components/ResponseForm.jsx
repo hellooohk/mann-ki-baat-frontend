@@ -10,7 +10,7 @@ const ResponseForm = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-   console.log(text);
+    
   };
   return (
     <div className="ResponseForm">

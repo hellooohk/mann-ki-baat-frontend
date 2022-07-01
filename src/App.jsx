@@ -5,6 +5,7 @@ import "./App.css";
 import ResponseForm from "./Components/ResponseForm";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
+import ContactForm from "./Components/ContactForm";
 const UserContext = createContext({});
 function App() {
   const [posts, setPosts] = useState([]);
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/post" element={<ResponseForm />} />
+            <Route path="/contact" element={<ContactForm/>}/>
           </Routes>
         </UserContext.Provider>
         <Footer/>
