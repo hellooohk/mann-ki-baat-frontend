@@ -2,8 +2,8 @@
 .header {
   justify-content: space-between;
   padding: 1rem 2rem;
-  background: linear-gradient(to left,#EC9B3B,#F24C4C);
-   box-shadow: 2px -5px 20px #F24C4C;
+  background: linear-gradient(to left, #ec9b3b, #f24c4c);
+  box-shadow: 2px -5px 20px #f24c4c;
 }
 .header-title {
   font-weight: 400;
@@ -21,21 +21,28 @@
   color: #fff;
   position: absolute;
   bottom: 0;
+  right: 0;
   padding: 0.3rem 1.5rem;
 }
 .ResponseForm {
   margin-top: 2rem;
   align-self: center;
   width: 30%;
-  background: linear-gradient(to right,#EA5455,#F07B3F);
+  background: linear-gradient(to right, #ea5455, #f07b3f);
   color: #fff;
   padding: 0 3rem;
   border-radius: 1rem;
 }
 .ResponseForm-text {
-  font-size: 18px;
-  letter-spacing: 3px;
+  font-size: 24px;
+  letter-spacing: 2.5px;
   margin: 1rem 0;
+}
+.ResponseForm-desc{
+    font-size: 12px;
+    margin: 0.5rem 0;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
 .ResponseForm-btn {
   font-family: "Poppins", sans-serif;
@@ -58,9 +65,20 @@
 .ContactForm {
   width: 30%;
   align-self: center;
-  background: linear-gradient(to left,#EC9B3B,#F24C4C);
+  background: linear-gradient(to top left, #ea5455, #f07b3f);
   padding: 1% 2%;
   margin-top: 5%;
   border-radius: 10px;
- 
+}
+.ContactForm-btn {
+  font-family: "Poppins", sans-serif;
+  background: none;
+  border: none;
+  align-self: center;
+  color: #fff;
+  margin-top: 1rem;
+  width: 5rem;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  padding: 0.5rem;
 }

@@ -10,19 +10,19 @@ const ResponseForm = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    
   };
   return (
     <div className="ResponseForm">
       <form onSubmit={handleSubmit}>
-        <div className="col ">
+        <div className="col">
           <div className="ResponseForm-text">
-            Write something that you can't say to someone 😊
+            Write something that's inside your head...
           </div>
           <textarea value={text} onChange={handleText}></textarea>
           <button className="ResponseForm-btn">Add</button>
-          <div className="ResponseForm-text">
-            We won't require your name or any other details 😎
+          <div className="ResponseForm-desc">
+            We won't require your name or any other details, your message will
+            be displayed on homepage and will be auto-deleted after 24 hours
           </div>
         </div>
       </form>

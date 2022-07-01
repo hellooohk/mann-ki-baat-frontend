@@ -27,15 +27,24 @@ a{
 }
 textarea{
   font-family: "Poppins",sans-serif;
-  font-size: 18px;
-  background-color: #EC9B3B;
-  color: #FFF;
-  border-radius: 1rem;
-  padding-left: 0.3rem;
-  border: 3px solid #FFF;
-  caret-color: #FFF;
+ 
+  color: #000;
+  caret-color: #000;
+  height: 10rem;
   letter-spacing: 1.5px;
 }
-textarea:focus-visible{
+textarea:focus-visible,input:focus-visible{
   outline: none;
+}
+input,textarea{
+  font-size: 18px;
+  border-radius: 8px;
+  border: 5px solid #ec9b3b;
+}
+input{
+  height: 2vw;
+}
+label{
+  color:#FFF;
+  margin: 0.3rem 0 0.4rem 0;
 }

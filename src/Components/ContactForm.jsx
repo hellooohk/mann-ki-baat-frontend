@@ -4,18 +4,20 @@ const ContactForm = () => {
     <div className="ContactForm col">
       <form>
         <div className="col">
-          <label htmlFor="">Name</label>
-          <input type="text" />
+          <div className="col">
+            <label htmlFor="">Name</label>
+            <input type="text" />
+          </div>
+          <div className="col">
+            <label htmlFor="">Email</label>
+            <input type="text" />
+          </div>
+          <div className="col">
+            <label htmlFor="">Message</label>
+            <textarea></textarea>
+          </div>
+          <button className="ContactForm-btn">Submit</button>
         </div>
-        <div className="col">
-          <label htmlFor="">Email</label>
-          <input type="text" />
-        </div>
-        <div className="col">
-          <label htmlFor="">Message</label>
-          <textarea></textarea>
-        </div>
-        <button>Submit</button>
       </form>
     </div>
   );
