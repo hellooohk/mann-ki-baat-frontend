@@ -19,6 +19,7 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/post" element={<ResponseForm />} />
             <Route path="/contact" element={<ContactForm/>}/>
+            <Route path="/*" element={<ResponseForm/>}/>
           </Routes>
         </UserContext.Provider>
         <Footer/>
