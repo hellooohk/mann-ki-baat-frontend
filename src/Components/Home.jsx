@@ -1,8 +1,14 @@
-import React from "react";
-const Home = () => {
-    return(
-        <div className="Home">
+import React,{useContext} from "react";
+import { UserContext } from "../App";
+import Card from "./Card";
 
+const Home = () => {
+    const colors = ["#34568B","#FF6F61","#6B5B95","#88B04B","#F7CAC9","#92A8D1"];
+    const data = useContext(UserContext);
+    return(
+        <div className="Home row">
+            {data.posts.length === 0 && <p>Nothing to show</p>}
+            {data.posts.map((item)=> <Card key={item.id} text={item.text} color={colors[item.id%6]}/>)}
         </div>
     )
 }

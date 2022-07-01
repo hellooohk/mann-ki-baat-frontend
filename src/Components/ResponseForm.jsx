@@ -1,15 +1,31 @@
 import React, { useState, useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import { UserContext } from "../App";
 import "./index.css";
 
 const ResponseForm = () => {
   const helper = useContext(UserContext);
   const [text, setText] = useState("");
+  const navigate = useNavigate();
   const handleText = (e) => {
     setText(e.target.value);
   };
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (text.length === 0) {
+      navigate("/");
+      return;
+    }
+
+    const item = {
+      id: helper.posts.length + 1,
+      text: text,
+    };
+    const dummyArray = helper.posts;
+    dummyArray.push(item);
+    helper.setPosts(dummyArray);
+    console.log(helper);
+    navigate("/");
   };
   return (
     <div className="ResponseForm">
