@@ -1,0 +1,57 @@
+/* header */
+.header{
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    color:rgb(63, 63, 63);
+    /* background: linear-gradient(to left,#F637EC,#FBB454,#FAEA48); */
+    background-color: #000;
+}
+.header-title{
+  font-weight: 600;
+}
+.header-items{
+    margin: 0 0.5rem;
+    font-weight: 500;
+}
+/* footer */
+.footer{
+    font-size: 12px;
+    background-color: #000;
+    color:#FFF;
+    position: absolute;
+    bottom: 0;
+    padding: 0.3rem 1.5rem;
+}
+.ResponseForm{
+    margin-top: 2rem;
+    align-self: center;
+    width: 30%;
+    background-color: #000;
+    color:#FFF;
+    padding: 0 3rem;
+    border-radius: 1rem;
+}
+.ResponseForm-text{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin:1rem 0;
+}
+.ResponseForm-btn{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    background: none;
+    color:#FFF;
+    border: 3px solid #FFF;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 5rem;
+    align-self: center;
+    
+}
+.ResponseForm-btn:hover{
+    cursor: pointer;
+    background-color: #FFF;
+    border-color: #000;
+    color:#000;
+}
