@@ -98,3 +98,29 @@
   border-radius: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .ResponseForm{
+    margin-top: 20%;
+    width: 80%;
+    padding: 0 1rem;
+  }
+  .ResponseForm-text{
+    font-size: 14px;
+  }
+  .ResponseForm-desc{
+    font-size: 8px;
+  }
+  .ContactForm{
+    margin-top: 20%;
+    width: 85%;
+    padding: 0.5rem;
+  }
+  .header{
+    padding: 1.5rem 0.5rem;
+    font-size: 12px;
+  }
+  .header-items{
+    margin: 0 0.2rem;
+  }
+}
