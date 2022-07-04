@@ -2,9 +2,9 @@ import React from "react";
 const Footer = () => {
     return(
         <footer className="footer">
-            <div className="copyright">
+            <a href="https://www.linkedin.com/in/hellohk/" className="copyright">
                 Created by Himanshu Kataria ❤️
-            </div>
+            </a>
         </footer>
     )
 } 
